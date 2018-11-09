@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Nequore
 //
-//  Created by Mahajan on 12/10/18.
+//  Created by Mahajan on 14/10/18.
 //  Copyright © 2018 Mahajan. All rights reserved.
 //
 
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+         UINavigationBar.appearance().barTintColor = .init(red: 72.0/255, green: 190.0/255, blue: 139.0/255, alpha: 1.0)
         return true
     }
 
